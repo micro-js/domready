@@ -17,15 +17,18 @@ Run a function when the DOM is ready
 ```js
 var domready = require('@f/domready')
 
+domready(function () {
+  loadApp()
+})
 ```
 
 ## API
 
-### domready(arg)
+### domready(fn)
 
-- `arg` -
+- `fn` - The function to run when the DOM is ready. Always invoked asynchronously, even if the DOM is already loaded.
 
-**Returns:**
+**Returns:** void
 
 ## License
 
