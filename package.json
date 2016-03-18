@@ -9,7 +9,7 @@
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
   "dependencies": {
-    "@f/is-dom-loaded": "^1.0.0"
+    "@f/is-dom-loaded": "^1.0.1"
   },
   "devDependencies": {
     "hihat": "^2.6.1",
