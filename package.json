@@ -2,7 +2,7 @@
   "name": "@f/domready",
   "description": "Run a function when the DOM is ready",
   "repository": "git://github.com/micro-js/domready.git",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
